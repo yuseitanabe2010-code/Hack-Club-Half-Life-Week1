@@ -1,0 +1,8 @@
+Item,Designator,Quantity,Manufacturer,Part Number,Description,Footprint
+1,U1,1,Genesys Logic,SL2.1A,"USB 2.0 Hub Controller, SSOP-28",Package_SO:SSOP-28_5.3x10.2mm_P0.65mm
+2,J1,1,Generic,USB-C-SMD,"USB Type-C Upstream Connector, Right Angle, SMD",Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12
+3,"J2, J3, J4, J5",4,Generic,USB-A-SMD,"USB 2.0 Type-A Receptacle, Right Angle, Through-Hole/SMD hybrid",Connector_USB:USB_A_Receptacle_Horizontal
+4,"C1, C2",2,Murata / Generic,08051C104K4T2A,"100nF Ceramic Capacitor, 50V, X7R, 0805",Capacitor_SMD:C_0805_2012Metric
+5,C3,1,Murata / Generic,GRM21BR60J106ME19L,"10uF Ceramic Capacitor, 6.3V, X5R, 0805",Capacitor_SMD:C_0805_2012Metric
+6,"R1, R2",2,Yageo / Panasonic,RC0805FR-0710KL,"10k Ohm Resistor, 1/8W, 1%, 0805",Resistor_SMD:R_0805_2012Metric
+7,XTAL1,1,EPSON / TXC,7A-12.000MAAE-T,"12 MHz Crystal, 20pF Load Capacitance",Crystal:Crystal_SMD_HC49-SD
