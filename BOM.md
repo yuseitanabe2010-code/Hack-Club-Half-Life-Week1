@@ -20,7 +20,7 @@
 | [6](https://www.digikey.com/en/products/detail/murata-electronics/GJM0335C0J220GB01D/2592492) | 10k Ohm Resistor, 1/8W, 1%, 0805 | 2 | $0.10 | $0.20 | [DigiKey](https://www.digikey.com/en/products/detail/murata-electronics/GJM0335C0J220GB01D/2592492) |
 | [7](https://www.digikey.com/en/products/detail/fox-electronics/FC5BQCCMC12-0-T1/1024615) | 12 MHz Crystal, 20pF Load Capacitance | 1 | $1.25 | $1.25 | [DigiKey](https://www.digikey.com/en/products/detail/fox-electronics/FC5BQCCMC12-0-T1/1024615) |
 | **Parts subtotal** | — | — | — | **$9.55** | — |
-| **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$9.55** | — |
+| **Tax & shipping** | — | — | — | **$10.83** | — |
+| **Total** | — | — | — | **$20.38** | — |
 
-$20.45 left of the tier's funding.
+$9.62 left of the tier's funding.
