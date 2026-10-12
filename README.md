@@ -10,5 +10,5 @@ This is the finsihed PCB design.
 <img width="1117" height="870" alt="image" src="https://github.com/user-attachments/assets/fa633209-de33-48e0-a780-e5419d0123aa" />
 [SL2.1A_USB_Hub_BOM.csv](https://github.com/user-attachments/files/33315746/SL2.1A_USB_Hub_BOM.csv)
 This is the 3d model of the PCB.
-<img width="1233" height="168" alt="bomwithlink" src="https://github.com/user-attachments/assets/ff522d4f-e9bd-447b-84df-8d3823447507" />
+<img width="888" height="455" alt="costofbill" src="https://github.com/user-attachments/assets/611be7e7-6843-481a-840c-b5250dbd6cfa" />
 BOM with link to suppliers
