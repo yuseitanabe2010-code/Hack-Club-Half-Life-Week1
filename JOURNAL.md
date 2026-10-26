@@ -10,13 +10,13 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 1 | Tier 1 | 17h | 3 |
+| Week 1 | Tier 1 | 11h | 3 |
 
 ## Contents
 
 1. [2026-10-11 – ![Downstream Schematic](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/DRpFq7N3dxboV2y550rARcrYJQ0Bp1ow/32e7de20d9229e0968c1e5609ce636575d9d769453a25f858d37fec3ee8fd2ee.png)](#2026-10-11-downstream-schematichttpshalflifehackclub-assetsc)
 2. [2026-10-11 – ![Footprint](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/DRpFq7N3dxboV2y550rARcrYJQ0Bp1ow/fe5ba12d1c41bc6a5515dfc6664d3d350b564b3afcc3bfe40a8d2885be269648.png)](#2026-10-11-footprinthttpshalflifehackclub-assetscomhackclub-)
-3. [2026-10-25 – The coding took even longer than designing the actual PCB, as I am pretty new to it and I decided to add a lot of features.](#2026-10-25-the-coding-took-even-longer-than-designing-the-ac)
+3. [2026-10-25 – I accidentally uploaded my week 3 stuff to this, and it wont let me change it so ill just add enough words and 2 random pictures to post, is that okay? just dont look at this one because i didnt work](#2026-10-25-i-accidentally-uploaded-my-week-3-stuff-to-this-a)
 
 ## Design
 
@@ -55,32 +55,12 @@ Just when I thought I was done, I was hit with 25 error messages. Honestly, I wa
 ![FinalPCB](https://halflife.hackclub-assets.com/sessions/DRpFq7N3dxboV2y550rARcrYJQ0Bp1ow/dc13f089319dda2284e4260c47972a1655bba21f11a5fbc305b59c3b3bbfb2b5.png)
 Finally, once that was done, I added a back copper layer that connected all of my ground pins and made the final finishing touches.
 
-### 2026-10-25 – The coding took even longer than designing the actual PCB, as I am pretty new to it and I decided to add a lot of features.
+### 2026-10-25 – I accidentally uploaded my week 3 stuff to this, and it wont let me change it so ill just add enough words and 2 random pictures to post, is that okay? just dont look at this one because i didnt work
 
-**8h**
+**2h**
 
-The coding took even longer than designing the actual PCB, as I am pretty new to it and I decided to add a lot of features.
+I accidentally uploaded my week 3 stuff to this, and it wont let me change it so ill just add enough words and 2 random pictures to post, is that okay? just dont look at this one because i didnt work on it more
 
-First, I imported all of the necessary things from the internet for MIDI stuff.
-![import](https://halflife.hackclub-assets.com/sessions/DRpFq7N3dxboV2y550rARcrYJQ0Bp1ow/bded24973468f9d4f33d5649f72c8c6171a52c1d3d53fc64e5eb172e6d9897b3.png)
+![FullSchematic](https://halflife.hackclub-assets.com/sessions/DRpFq7N3dxboV2y550rARcrYJQ0Bp1ow/6c4226de193bc20a4d5f102ce1ccda94445501288a0da9280f9f8fb6c37dcc1c.png)
 
-This part tells the computer to treat the Raspberry Pi as a MIDI device.
-![keysanddrums](https://halflife.hackclub-assets.com/sessions/DRpFq7N3dxboV2y550rARcrYJQ0Bp1ow/ce5e67547724356289ec1550f2de863e12758fe56cbf2ba37f4685daae56ca83.png)
-
-I added modes where you can switch between drums and notes. The initial setting starts as notes, and the base note is 48 or C3. The drums are channel 10 or 9 on the PCB since it starts at 0.
-![initialnote](https://halflife.hackclub-assets.com/sessions/DRpFq7N3dxboV2y550rARcrYJQ0Bp1ow/2930de2ae68d62891886d2cac65d5822d1e2adc0b16b53f55921dde5d7c9109f.png)
-
-This is the code to switch the modes. It basically converts the signal from the switch on the PCB and translates that to either melody or drums based on the position.
-![modeswitch](https://halflife.hackclub-assets.com/sessions/DRpFq7N3dxboV2y550rARcrYJQ0Bp1ow/68e3822ec51f55a83c7af9929b3218277e959da72a66c28aeea8a37bbe3aa94a.png)
-
-In a loop that repeats 100 times per second so there's no delay, it first checks for the mode. It takes the output and prints it.
-![drumormelody](https://halflife.hackclub-assets.com/sessions/DRpFq7N3dxboV2y550rARcrYJQ0Bp1ow/e90049943dd30596fec01a53c23d249e057344bb2c4ca18c19a14e5b87ac7eda.png)
-
-This is a system to make sure that the notes don't go too high or too low. It checks the current number and whether it wants to go up or down. If it exceeds the limits, it doesn't do it.
-![octaveboundary](https://halflife.hackclub-assets.com/sessions/DRpFq7N3dxboV2y550rARcrYJQ0Bp1ow/0a7faf27d1adf79bc9a5207d624aea6b93b6d1d8998fb55e865c79356f6ee615.png)
-
-This part checks if a key is pressed down or not, and if it is, it plays that note.
-![playkey](https://halflife.hackclub-assets.com/sessions/DRpFq7N3dxboV2y550rARcrYJQ0Bp1ow/638c2967d8f40409bbadb7a42bcbb49f668579ccfe45bb145fb7e02feeeb851c.png)
-
-This is the volume slider, and I implemented a system where it takes in the movement, and if it's too small, it ignores it.
-![volume](https://halflife.hackclub-assets.com/sessions/DRpFq7N3dxboV2y550rARcrYJQ0Bp1ow/83517a88c569c64f541178a9769ff00f83109366c7084e8b863598eefb995824.png)
+![Rearranged PCB](https://halflife.hackclub-assets.com/sessions/DRpFq7N3dxboV2y550rARcrYJQ0Bp1ow/6e91f0791f4c9701cab7a39394cdb053fe7e02958758c47dff28350ca20e08b4.png)
